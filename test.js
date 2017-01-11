@@ -31,4 +31,5 @@ var server = http.createServer(function(req, res) {
     }
     res.end();
 });
+console.log('server listening at 8080');
 server.listen(8080);
