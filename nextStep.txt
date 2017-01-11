@@ -1,0 +1,7 @@
+NEXT STEP:
+Initialiser une nouvelle base de données
+Initialiser une table
+Peupler cette table.
+Faire une requete sur toute les données de cette table
+	Remonter tout le resultat comme text plain à l'utilisateur
+	Remonter tout le resultat comme fichier json à l'utilisateur
