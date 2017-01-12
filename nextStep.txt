@@ -1,5 +1,10 @@
 NEXT STEP:
 
-Faire une requete sur toute les données de cette table
-	Remonter tout le resultat comme text plain à l'utilisateur
-	Remonter tout le resultat comme fichier json à l'utilisateur
+OK --	Faire une requete sur toute les données de cette table 
+OK --	Remonter tout le resultat comme text plain à l'utilisateur
+OK --	Remonter tout le resultat comme fichier json à l'utilisateur
+Créer un fichier json de dependances du fichier serveur.js
+lancer une install npm de serveur.js et véréfier que les modules seront bien installés
+recupérer dynamiquement l'ID de l'auteur depuis la query
+mettre les fonctions dans un fichier.js à part et créer les dependances avece serveur.js
+
