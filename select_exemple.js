@@ -9,11 +9,11 @@ var connection = mysql.createConnection({
 
 connection.connect();
 
-var query = connection.query('select * from livres', function(err,result){
+var query = connection.query('select * from authors', function(err,result){
     if(err){
         console.error(err);
         return;
     }
-    //console.log(query.sql);
-    console.log(result)
+    console.log(query.sql);
+    console.log(result);
 });

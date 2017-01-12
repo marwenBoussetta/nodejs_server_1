@@ -8,14 +8,14 @@ var connection = mysql.createConnection({
 });
 
 connection.connect();
-var table='livres';
-var book ={
+var table='authors';
+var author ={
    
-    TITRE : 'KARAMAZOV',
-    AUTEUR : 'DOSTO'
+    FIRST_NAME : 'FIODOR',
+    LAST_NAME : 'DOSTOIEVSKI'
 };
 
-var query = connection.query('insert into livres set ?', book, function(err,result){
+var query = connection.query('insert into authors set ?', author, function(err,result){
     if(err){
         console.error(err);
         return;
