@@ -1,6 +1,8 @@
+//declaration des dépendances
 var http = require('http');
 var url = require('url');
 
+//creation de l'objet http
 var server = http.createServer(function(req, res) {
     var page = url.parse(req.url).pathname;
     console.log(page);
