@@ -2,12 +2,8 @@ NEXT STEP:
 
 OK --	Faire une requete sur toute les données de cette table 
 OK --	Remonter tout le resultat comme text plain à l'utilisateur
-OK --	Remonter tout le resultat comme fichier json à l'utilisateur
-Créer un fichier json de dependances du fichier serveur.js
+OK --	Recupérer dynamiquement l'ID de l'auteur depuis la query
+
 lancer une install npm de serveur.js et véréfier que les modules seront bien installés
-recupérer dynamiquement l'ID de l'auteur depuis la query
 mettre les fonctions dans un fichier.js à part et créer les dependances avece serveur.js
-
-
-creer un exemple de serveur qui recupere le nombre depuis le path et le log sur la console
-
+Créer un fichier json de dependances du fichier serveur.js
