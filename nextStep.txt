@@ -4,11 +4,10 @@ OK --	Faire une requete sur toute les données de cette table
 OK --	Remonter tout le resultat comme text plain à l'utilisateur
 OK --	Recupérer dynamiquement l'ID de l'auteur depuis la query
 OK --	Faire un exemple utilisant les cookies avec cookie-session
+OK --	mettre les fonctions dans un fichier.js à part et créer les dependances avece serveur.js
+OK --	Créer un fichier json de dependances du fichier serveur.js
 
-mettre les fonctions dans un fichier.js à part et créer les dependances avece serveur.js
-Créer un fichier json de dependances du fichier serveur.js
 Améliorer le routing : deux route à partir de la base :  /authors , /books
 récupérer la requete depuis un formulaire
 utilisation d'une bibliothque css
 utilisation des images pour chaque auteur ?? arichitecture reste encore à définir !!!
- 
